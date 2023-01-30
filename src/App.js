@@ -20,7 +20,7 @@ const App = () => {
       placeholder:"Username",
       label:"Username",
       errorMessage: "Username should be 3-16 characters and shouldn't include any special character!",
-      pattern: "^[A-Za-z0-9]{3,16}$",
+      pattern: "^[A-Za-z]{3,16}$",
       required: true,
     },{ 
       id: 2,
